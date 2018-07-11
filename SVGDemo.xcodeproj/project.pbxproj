@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFE4ED5C43FE6A498820BB3 /* Pods_SVGDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296FAB3A4DF057FBCE9C9C3E /* Pods_SVGDemoTests.framework */; };
+		45772FAD2C00573F0E8400A2 /* Pods_SVGDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AA69F9A5C8CD005CD5B69A /* Pods_SVGDemoUITests.framework */; };
 		7802CC5F20F5BB3000C91D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802CC5E20F5BB3000C91D2E /* AppDelegate.swift */; };
 		7802CC6120F5BB3000C91D2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802CC6020F5BB3000C91D2E /* ViewController.swift */; };
 		7802CC6420F5BB3000C91D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7802CC6220F5BB3000C91D2E /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		7802CC6920F5BB3000C91D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7802CC6720F5BB3000C91D2E /* LaunchScreen.storyboard */; };
 		7802CC7420F5BB3000C91D2E /* SVGDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802CC7320F5BB3000C91D2E /* SVGDemoTests.swift */; };
 		7802CC7F20F5BB3000C91D2E /* SVGDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7802CC7E20F5BB3000C91D2E /* SVGDemoUITests.swift */; };
+		7802CC8E20F5BC9100C91D2E /* SwiftSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7802CC8D20F5BC9100C91D2E /* SwiftSVG.framework */; };
+		7802CC9520F5CA3500C91D2E /* test.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7802CC9420F5CA3500C91D2E /* test.svg */; };
+		7802CC9720F5CA6300C91D2E /* test_no_size.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7802CC9620F5CA6300C91D2E /* test_no_size.svg */; };
+		7875F8FE20F5F5080047A7EF /* pc.svg in Resources */ = {isa = PBXBuildFile; fileRef = 7875F8FD20F5F5080047A7EF /* pc.svg */; };
+		826A0D3541F255D6AB7C1429 /* Pods_SVGDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FC9A4824B245718F3FA83A /* Pods_SVGDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03FC9A4824B245718F3FA83A /* Pods_SVGDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296FAB3A4DF057FBCE9C9C3E /* Pods_SVGDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF79DEF5DE488755321055F /* Pods-SVGDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemo/Pods-SVGDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5E074CE6FCD0048A65D81F07 /* Pods-SVGDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemoTests/Pods-SVGDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72596801BE9BF93A3989E265 /* Pods-SVGDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemo/Pods-SVGDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7802CC5B20F5BB3000C91D2E /* SVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7802CC5E20F5BB3000C91D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7802CC6020F5BB3000C91D2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		7802CC7A20F5BB3000C91D2E /* SVGDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7802CC7E20F5BB3000C91D2E /* SVGDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGDemoUITests.swift; sourceTree = "<group>"; };
 		7802CC8020F5BB3000C91D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7802CC8D20F5BC9100C91D2E /* SwiftSVG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSVG.framework; path = Carthage/Build/iOS/SwiftSVG.framework; sourceTree = "<group>"; };
+		7802CC9420F5CA3500C91D2E /* test.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.svg; sourceTree = "<group>"; };
+		7802CC9620F5CA6300C91D2E /* test_no_size.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test_no_size.svg; sourceTree = "<group>"; };
+		7875F8FD20F5F5080047A7EF /* pc.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pc.svg; sourceTree = "<group>"; };
+		A92077FC90260DB77EB5D2AE /* Pods-SVGDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemoUITests/Pods-SVGDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9E0A8D4DFF2E79F7266A30 /* Pods-SVGDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemoUITests/Pods-SVGDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5AA69F9A5C8CD005CD5B69A /* Pods_SVGDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F68A7BA74BB9E1CB4D368A /* Pods-SVGDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGDemoTests/Pods-SVGDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7802CC8E20F5BC9100C91D2E /* SwiftSVG.framework in Frameworks */,
+				826A0D3541F255D6AB7C1429 /* Pods_SVGDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFE4ED5C43FE6A498820BB3 /* Pods_SVGDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45772FAD2C00573F0E8400A2 /* Pods_SVGDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E2921E1EAC73A23E4CCA300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72596801BE9BF93A3989E265 /* Pods-SVGDemo.debug.xcconfig */,
+				2AF79DEF5DE488755321055F /* Pods-SVGDemo.release.xcconfig */,
+				5E074CE6FCD0048A65D81F07 /* Pods-SVGDemoTests.debug.xcconfig */,
+				E9F68A7BA74BB9E1CB4D368A /* Pods-SVGDemoTests.release.xcconfig */,
+				A92077FC90260DB77EB5D2AE /* Pods-SVGDemoUITests.debug.xcconfig */,
+				BF9E0A8D4DFF2E79F7266A30 /* Pods-SVGDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7802CC5220F5BB3000C91D2E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				7802CC7220F5BB3000C91D2E /* SVGDemoTests */,
 				7802CC7D20F5BB3000C91D2E /* SVGDemoUITests */,
 				7802CC5C20F5BB3000C91D2E /* Products */,
+				7802CC8C20F5BC9100C91D2E /* Frameworks */,
+				6E2921E1EAC73A23E4CCA300 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +136,9 @@
 		7802CC5D20F5BB3000C91D2E /* SVGDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7875F8FD20F5F5080047A7EF /* pc.svg */,
+				7802CC9620F5CA6300C91D2E /* test_no_size.svg */,
+				7802CC9420F5CA3500C91D2E /* test.svg */,
 				7802CC5E20F5BB3000C91D2E /* AppDelegate.swift */,
 				7802CC6020F5BB3000C91D2E /* ViewController.swift */,
 				7802CC6220F5BB3000C91D2E /* Main.storyboard */,
@@ -125,6 +167,17 @@
 			path = SVGDemoUITests;
 			sourceTree = "<group>";
 		};
+		7802CC8C20F5BC9100C91D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7802CC8D20F5BC9100C91D2E /* SwiftSVG.framework */,
+				03FC9A4824B245718F3FA83A /* Pods_SVGDemo.framework */,
+				296FAB3A4DF057FBCE9C9C3E /* Pods_SVGDemoTests.framework */,
+				C5AA69F9A5C8CD005CD5B69A /* Pods_SVGDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7802CC8320F5BB3100C91D2E /* Build configuration list for PBXNativeTarget "SVGDemo" */;
 			buildPhases = (
+				D8119C947BF9DD694E62F8AB /* [CP] Check Pods Manifest.lock */,
 				7802CC5720F5BB3000C91D2E /* Sources */,
 				7802CC5820F5BB3000C91D2E /* Frameworks */,
 				7802CC5920F5BB3000C91D2E /* Resources */,
+				7802CC8F20F5BC9D00C91D2E /* ShellScript */,
+				3F012110AC4DDD99733C1275 /* [CP] Embed Pods Frameworks */,
+				CC891F600E4446A4E218AECC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7802CC8620F5BB3100C91D2E /* Build configuration list for PBXNativeTarget "SVGDemoTests" */;
 			buildPhases = (
+				B30FCD94222C76E90ACD3596 /* [CP] Check Pods Manifest.lock */,
 				7802CC6B20F5BB3000C91D2E /* Sources */,
 				7802CC6C20F5BB3000C91D2E /* Frameworks */,
 				7802CC6D20F5BB3000C91D2E /* Resources */,
+				8CBCD231FDF3C7901B0F3D53 /* [CP] Embed Pods Frameworks */,
+				41CEF69D479FBEEC49B93A86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7802CC8920F5BB3100C91D2E /* Build configuration list for PBXNativeTarget "SVGDemoUITests" */;
 			buildPhases = (
+				075FF853204031FCEFC7E05D /* [CP] Check Pods Manifest.lock */,
 				7802CC7620F5BB3000C91D2E /* Sources */,
 				7802CC7720F5BB3000C91D2E /* Frameworks */,
 				7802CC7820F5BB3000C91D2E /* Resources */,
+				84F6A6E7C51A31A437E70EBC /* [CP] Embed Pods Frameworks */,
+				C621AF05BA8779A178D73B0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7802CC6920F5BB3000C91D2E /* LaunchScreen.storyboard in Resources */,
+				7875F8FE20F5F5080047A7EF /* pc.svg in Resources */,
 				7802CC6620F5BB3000C91D2E /* Assets.xcassets in Resources */,
+				7802CC9520F5CA3500C91D2E /* test.svg in Resources */,
+				7802CC9720F5CA6300C91D2E /* test_no_size.svg in Resources */,
 				7802CC6420F5BB3000C91D2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +319,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075FF853204031FCEFC7E05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F012110AC4DDD99733C1275 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemo/Pods-SVGDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CEF69D479FBEEC49B93A86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemoTests/Pods-SVGDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7802CC8F20F5BC9D00C91D2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftSVG.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		84F6A6E7C51A31A437E70EBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemoUITests/Pods-SVGDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBCD231FDF3C7901B0F3D53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemoTests/Pods-SVGDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30FCD94222C76E90ACD3596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C621AF05BA8779A178D73B0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemoUITests/Pods-SVGDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC891F600E4446A4E218AECC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGDemo/Pods-SVGDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8119C947BF9DD694E62F8AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7802CC5720F5BB3000C91D2E /* Sources */ = {
@@ -424,14 +642,22 @@
 		};
 		7802CC8420F5BB3100C91D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72596801BE9BF93A3989E265 /* Pods-SVGDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45QP5U5T65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SVGDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kobaken.SVGDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +665,22 @@
 		};
 		7802CC8520F5BB3100C91D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF79DEF5DE488755321055F /* Pods-SVGDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45QP5U5T65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SVGDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kobaken.SVGDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +688,7 @@
 		};
 		7802CC8720F5BB3100C91D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E074CE6FCD0048A65D81F07 /* Pods-SVGDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +706,7 @@
 		};
 		7802CC8820F5BB3100C91D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F68A7BA74BB9E1CB4D368A /* Pods-SVGDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +724,7 @@
 		};
 		7802CC8A20F5BB3100C91D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92077FC90260DB77EB5D2AE /* Pods-SVGDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +741,7 @@
 		};
 		7802CC8B20F5BB3100C91D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9E0A8D4DFF2E79F7266A30 /* Pods-SVGDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
